@@ -1,0 +1,28 @@
+
+D:\emqx\bin>D:\emqx\bin\emqx.cmd
+usage: emqx (install|uninstall|start|stop|restart|console|ping|list|attach)
+
+D:\emqx\bin>emqx install
+D:\emqx\erts-10.7\bin\erlsrv.exe: Service emqx_v4.1.4 added to system.
+描述:
+        在注册表和服务数据库中修改服务项。
+用法:
+        sc <server> config [service name] <option1> <option2>...
+
+选项:
+注意: 选项名称包括等号。
+      等号和值之间需要一个空格。
+ type= <own|share|interact|kernel|filesys|rec|adapt>
+ start= <boot|system|auto|demand|disabled|delayed-auto>
+ error= <normal|severe|critical|ignore>
+ binPath= <BinaryPathName>
+ group= <LoadOrderGroup>
+ tag= <yes|no>
+ depend= <依存关系(以 / (斜杠) 分隔)>
+ obj= <AccountName|ObjectName>
+ DisplayName= <显示名称>
+ password= <密码>
+
+D:\emqx\bin>emqx start
+
+D:\emqx>cd bin
